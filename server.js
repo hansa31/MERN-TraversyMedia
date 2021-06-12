@@ -26,11 +26,7 @@ const port = process.env.PORT || 3000           //process.env.PORT is for live h
 //to use items
 app.use('/api/items',items_router)         //any reqs with api/items/* should reffer to items object which is the file
 
-//test
-app.get('/',(req,res)=>{
-    res.send('Hello world!')
-})
 
 app.listen(port, () => {
     console.log(`Server is listening on ${port}...`)
-})
+}) 

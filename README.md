@@ -13,3 +13,7 @@ config -> for URIs
 model -> model for the database
 routes -> for all routes
        -> api -> api routes return json
+client -> client side apps (react) -> npm i -g create-react-app -> create-react-app
+              when we make requests via react we use axios
+              axios.get() -> add a proxy value in package.json
+       use concurrently to run the server and xlient together
