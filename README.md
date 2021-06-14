@@ -19,3 +19,6 @@ client -> client side apps (react) -> npm i -g create-react-app -> create-react-
               axios.get() -> add a proxy value in package.json
        use concurrently to run the server and xlient together
        delete these files after setting up react -> logo.svg,index.css,app.css (css),index.js -> index.css, app.js change
+
+       install bootstrap, reactstrap(to use bootstrap componrnts as react components), uuid(generate random ids), react-transition-group
+client1->src->components-> for components
