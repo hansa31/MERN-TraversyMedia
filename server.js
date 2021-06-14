@@ -21,7 +21,7 @@ mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
         console.log(err);
     })
 
-const port = process.env.PORT || 3000           //process.env.PORT is for live hosting in Horoku
+const port = process.env.PORT || 5000           //process.env.PORT is for live hosting in Horoku
 
 //to use items
 app.use('/api/items',items_router)         //any reqs with api/items/* should reffer to items object which is the file
